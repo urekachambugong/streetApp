@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#f2f2f2;
+}
+.navbar {
+    background-color: #141515;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: #141515;
+}
+
+.footer {
+    background-color: #141515;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100vw;   
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;     /* Pull left to start at edge */
+    margin-right: -50vw;    /* Pull right to end at edge */
+    box-sizing: border-box; /* Includes padding inside width */
+}
+
+.content {
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.form-section {
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .button-group {
+    margin-bottom: 30px;
+}
+#map {
+    border-radius: 15px;
+    overflow: hidden; 
+}
+
+
+  
